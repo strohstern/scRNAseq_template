@@ -50,6 +50,9 @@ RENV_PATHS_LOCAL=/camp/stp/babs/working/software/renv/babs_packages
 ```{r, eval = FALSE}
 # Only required if the project was initialized without renv
 renv::init()
+
+# when cloning a github repository use
+renv::restore()
 ```
 
 
