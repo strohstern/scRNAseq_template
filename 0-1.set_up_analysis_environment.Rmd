@@ -233,3 +233,13 @@ raw_data_base <- str_c(
 file.copy(list.files(raw_data_base, pattern = ".csv$", full.names = TRUE), "./data/raw_data/project_docs/")
 ```
 
+
+# Comments on installing Monocle3
+
+When using (installing) Monocle3, please esure you request the following additional modules when using RStudio onDemand:
+```{bash, eval=FALSE}
+rgdal/1.5-16-foss-2020a-R-4.0.0 PROJ/7.0.0-GCCcore-9.3.0
+```
+
+
+
