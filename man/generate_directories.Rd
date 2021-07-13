@@ -13,7 +13,7 @@ generate_directories(dir_path)
 
 }
 \description{
-Generate directory if it does not exist
+Generate directory if it does not exist, including parent directories.
 }
 \examples{
 
